@@ -1,0 +1,100 @@
+body{
+    width: 1400px;
+    background-color: #FFF;
+}
+
+.content{
+    width: 1150px;
+    margin: 128px 125px;
+}
+
+.interiors{
+    width: 1150px;
+    height: 650px;
+    margin-bottom: 150px;
+}
+
+h1{
+    width: 956px;
+    color: #121212;
+    font-family: 'Manrope', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    margin-top: 128px;
+    margin-bottom: 30px;
+}
+
+.interiors_item{
+    height: 500px;
+    background-image: url(../resources/interiors.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.interiors_text{
+    width: 430px;
+    height: 81px;
+    padding-top: 379px;
+    padding-left: 40px;
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.about{
+    width: 1051px;
+    height: 518px;
+    margin-bottom: 150px;
+}
+
+h2{
+    width: 51px;
+    color: #121212;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about_description{
+    width: 1048px;
+    height: 366px;
+    color: #121212;
+    font-family: Manrope;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -1.35px;
+    margin-bottom: 30px;
+}
+
+.about_btn{
+    display: inline-flex;
+    width: 255px;
+    height: 67px;
+    padding: 20px 40px;
+    align-items: flex-start;
+    border-radius: 5px;
+    gap: 10px;
+    background: #AD1818;
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.6px;
+    border: none;
+}
