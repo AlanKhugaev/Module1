@@ -8,6 +8,7 @@ body{
 .content{
     width: 1150px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 h1, 
@@ -18,13 +19,11 @@ h2,
 }
 
 .interiors{
-    height: 650px;
     margin-bottom: 150px;
 }
 
 h1{
     width: 956px;
-    margin-top: 128px;
     margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
@@ -67,9 +66,6 @@ h2{
 }
 
 .about__description{
-    width: 1048px;
-    height: 366px;
-    padding-left: 3px;
     margin-bottom: 30px;
     font-size: 45px;
     line-height: 61px;
@@ -148,43 +144,32 @@ h2{
 /*-----Услуги-----*/
 
 .services{
-    width: 1400px;
+    width: 1275px;
     margin-left: -125px;
     padding-top: 151px;
+    padding-left: 125px;
     padding-bottom: 150px;
     background-color: #121212;
 }
 
 .services__heading{
-    margin-left: 127px;
     margin-bottom: 34px;
     color: #FFF;
 }
 
-.service-item{
-    margin-left: 125px;
+.services__item{
     margin-bottom: 60px;
 }
 
-.service-item:nth-last-child(1){
-    margin-bottom: 0;
-    padding-left: 2px;
+.services__item:nth-last-child(1){
+    margin-bottom: 0; 
 }
 
-.service-item:nth-last-child(2){
-    padding-left: 2px;
-}
-
-.service-item:nth-last-child(3){
-    padding-left: 1px;
-}
-
-.service-item__img{
+.services__img{
     margin-bottom: 15px;
 }
 
-.service-item__text{
-    padding-left: 3px;
+.services__text{
     color: #FFF;
     font-size: 30px;
     letter-spacing: -0.9px;
