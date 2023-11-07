@@ -97,6 +97,7 @@ h2{
 .projects{
     margin-bottom: 150px;
     background: #FFF;
+    list-style: none;
 }
 
 .project{
@@ -187,5 +188,4 @@ h2{
     color: #FFF;
     font-size: 30px;
     letter-spacing: -0.9px;
-
 }
