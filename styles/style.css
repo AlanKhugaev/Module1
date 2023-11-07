@@ -18,6 +18,15 @@ h2,
     color: #121212;    
 }
 
+.interiors__text, 
+.about__btn, 
+.projects-btn:hover,
+.services__heading,
+.services__text{
+    color: #FFF;
+}
+
+
 .interiors{
     margin-bottom: 150px;
 }
@@ -44,7 +53,6 @@ h1{
     height: 81px;
     left: 40px;
     bottom: 40px;
-    color: #FFF;
     font-size: 20px;
     letter-spacing: -0.6px;
 }
@@ -81,7 +89,6 @@ h2{
     border-radius: 5px;
     gap: 10px;
     background-color: #AD1818;
-    color: #FFF;
     font-size: 20px;
     letter-spacing: -0.6px;
     border: none;
@@ -92,7 +99,7 @@ h2{
 
 .projects{
     margin-bottom: 150px;
-    background: #FFF;
+    background-color: #FFF;
     list-style: none;
 }
 
@@ -138,7 +145,6 @@ h2{
 
 .projects-btn:hover {
     background: #AD1818;
-    color: #FFF;
 }
 
 /*-----Услуги-----*/
@@ -154,7 +160,6 @@ h2{
 
 .services__heading{
     margin-bottom: 34px;
-    color: #FFF;
 }
 
 .services__item{
@@ -170,7 +175,6 @@ h2{
 }
 
 .services__text{
-    color: #FFF;
     font-size: 30px;
     letter-spacing: -0.9px;
 }
