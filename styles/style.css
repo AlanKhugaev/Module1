@@ -54,6 +54,7 @@ main{
 
 h1, 
 h2, 
+.menu__link a,
 .about__description, 
 .project__details {
     color: #121212;    
