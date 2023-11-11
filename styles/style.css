@@ -54,9 +54,9 @@ main{
 
 h1, 
 h2, 
-.menu__link a,
 .about__description, 
-.project__details {
+.project__details,
+.menu__link a{
     color: #121212;    
 }
 
@@ -186,9 +186,11 @@ h2{
     margin-bottom: 15px;
 }
 
-.services__text{
-    font-size: 30px;
-    letter-spacing: -0.9px;
+.services__text,
+.apartment-project__text{
+font-size: 30px;
+line-height: 41px;
+letter-spacing: -0.9px;
 }
 
 section:nth-last-child(3){
@@ -212,10 +214,8 @@ section:nth-last-child(2){
     left: 125px;
     bottom: 60px;
     width: 443px;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.9px;
 }
+
 .contact-info__icon{
     margin-bottom: 12px;
 }
