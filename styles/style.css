@@ -1,13 +1,54 @@
 body{
-    width: 1400px;
+    margin: 0 auto;
     background-color: #FFF;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
+    color: #121212;
+}
+
+header{
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    padding: 33px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo,
+.nav-menu,
+.menu__link{
+    display: inline-block;
+}
+
+.menu__link{
+    margin-left: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.54px; 
+}
+
+.menu__link a{
+    text-decoration: none;
+}
+
+.menu__link a:hover,
+.menu__link_active
+{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+main{
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .content{
-    width: 1150px;
+    max-width: 1180px;
     margin: 0 auto;
+    margin-bottom: 150px;
     padding: 0 15px;
 }
 
@@ -20,15 +61,11 @@ h2,
 
 .interiors__text, 
 .about__btn, 
-.projects-btn:hover,
-.services__heading,
-.services__text{
+.projects__btn:hover,
+.services__title,
+.services__text,
+.apartment-project__text{
     color: #FFF;
-}
-
-
-.interiors{
-    margin-bottom: 150px;
 }
 
 h1{
@@ -37,6 +74,13 @@ h1{
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    line-height: 25px;
 }
 
 .interiors__item{
@@ -54,26 +98,12 @@ h1{
     left: 40px;
     bottom: 40px;
     font-size: 20px;
+    line-height: 27px;
     letter-spacing: -0.6px;
 }
 
-/*-----О НАС-----*/
-
-.about{
-    width: 1051px;
-    height: 518px;
-    margin-bottom: 150px;
-}
-
-h2{
-    height: 25px;
-    margin-bottom: 30px;
-    font-size: 18px;
-    letter-spacing: -0.54px;
-    text-transform: uppercase;
-}
-
 .about__description{
+    width: 1048px;
     margin-bottom: 30px;
     font-size: 45px;
     line-height: 61px;
@@ -95,15 +125,7 @@ h2{
     cursor: pointer;
 }
 
-/*-----проекты-----*/
-
-.projects{
-    margin-bottom: 150px;
-    background-color: #FFF;
-    list-style: none;
-}
-
-.project{
+.projects__project{
     margin-bottom: 90px;
 }
 
@@ -128,7 +150,7 @@ h2{
     text-decoration: none;
 }
 
-.projects-btn {
+.projects__btn {
     width: 100%;
     height: 153px;
     padding: 0;
@@ -143,22 +165,11 @@ h2{
     transition: all 0.5s;
 }
 
-.projects-btn:hover {
+.projects__btn:hover {
     background: #AD1818;
 }
 
-/*-----Услуги-----*/
-
-.services{
-    width: 1275px;
-    margin-left: -125px;
-    padding-top: 151px;
-    padding-left: 125px;
-    padding-bottom: 150px;
-    background-color: #121212;
-}
-
-.services__heading{
+.services__title{
     margin-bottom: 34px;
 }
 
@@ -177,4 +188,33 @@ h2{
 .services__text{
     font-size: 30px;
     letter-spacing: -0.9px;
+}
+
+section:nth-last-child(3){
+    max-width: 1400px;
+    background-color: #121212;
+    padding: 150px 125px;
+    margin: 0;
+}
+section:nth-last-child(2){
+    position: relative;
+    max-width: 1400px;
+    height: 717px;
+    margin: 0;
+    margin-bottom: 150px;
+    background-image: url(../resources/bedroom.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.apartment-project__text{
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.9px;
+}
+.contact-info__icon{
+    margin-bottom: 12px;
 }
