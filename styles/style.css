@@ -237,7 +237,7 @@ section:nth-last-child(2){
     width: 24px;
     height: 24px;
     top: -38px;
-    background-image: url(../resources/phone_ico.png);
+    background-image: url(/resources/phone_ico.png);
 }
 
 .contact-info__tel{
