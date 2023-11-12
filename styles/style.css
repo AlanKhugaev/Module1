@@ -208,6 +208,7 @@ section:nth-last-child(3){
     padding: 150px 125px;
     margin: 0;
 }
+
 section:nth-last-child(2){
     position: relative;
     max-width: 1400px;
@@ -219,6 +220,7 @@ section:nth-last-child(2){
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
+
 .apartment-project__text{
     position: absolute;
     left: 125px;
@@ -274,7 +276,15 @@ footer{
 
 .footer__nav-menu a{
     margin: 0 27px;
-    text-decoration: none;  
+    text-decoration: none; 
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.54px;
+}
+
+.footer__nav-menu a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
 }
 
 .footer__nav-menu{
