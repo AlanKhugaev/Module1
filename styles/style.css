@@ -295,4 +295,7 @@ footer{
 .footer__info{
     text-align: center;
     opacity: 0.5;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.6px;
 }
