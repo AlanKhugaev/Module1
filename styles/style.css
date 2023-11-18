@@ -16,25 +16,24 @@ body{
     padding: 0 15px;
 }
 
-header{
+.header{
     margin: 33px 15px 70px;
     
 }
-header .container{
+.header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo,
-.nav-menu,
-.menu__link{
+.nav-menu{
     display: inline-block;
 }
 
 .menu__link{
+    display: inline-block;
     margin-left: 57px;
-    
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.54px; 
@@ -54,25 +53,6 @@ section{
     margin-bottom: 150px;
 }
 
-section:nth-last-child(3){
-    background-color: #121212;
-    padding: 150px 125px;
-    margin-bottom: 0;
-}
-
-section:nth-last-child(2){
-    position: relative;
-    height: 717px;
-    margin-bottom: 186px;
-    background-image: url(../resources/bedroom.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-section:nth-last-child(1){
-    margin-bottom: 163px;
-}
-
 .interiors__text, 
 .about__btn, 
 .projects__btn:hover,
@@ -84,7 +64,7 @@ section:nth-last-child(1){
     color: #FFF;
 }
 
-h1{
+.interiors__title{
     width: 956px;
     margin-bottom: 30px;
     font-size: 60px;
@@ -127,8 +107,6 @@ h2{
 }
 
 .about__btn{
-    width: 255px;
-    height: 67px;
     padding: 20px 40px;
     border-radius: 5px;
     background-color: #AD1818;
@@ -168,14 +146,14 @@ h2{
 
 .projects__btn {
     display: flex;
-    height: 153px;
+    padding: 56px 0;
     border: 1px solid #AD1818;
     border-radius: 5px;
     cursor: pointer;
     color: #AD1818;
     justify-content: center;
-    align-items: center;
     font-size: 30px;
+    line-height: 38px;
     letter-spacing: -0.9px;
     transition: all 0.5s;
     text-decoration: none;
@@ -183,6 +161,12 @@ h2{
 
 .projects__btn:hover {
     background: #AD1818;
+}
+
+.services{
+    background-color: #121212;
+    padding: 150px 0 ;
+    margin-bottom: 0;
 }
 
 .services__title{
@@ -210,6 +194,16 @@ line-height: 39px;
 letter-spacing: -0.75px;
 }
 
+.apartment-project{
+    position: relative;
+    height: 717px;
+    margin-bottom: 186px;
+    background-image: url(../resources/bedroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 .apartment-project__text{
     position: absolute;
     left: 125px;
@@ -219,6 +213,7 @@ letter-spacing: -0.75px;
 
 .contact-info{
     position: relative;
+    margin-bottom: 163px;
 }
 
 .contact-info__title::before{
@@ -228,12 +223,16 @@ letter-spacing: -0.75px;
     width: 24px;
     height: 24px;
     top: -37px;
-    left: 170px;
     background-image: url(../resources/phone_ico.png);
 }
 
 .contact-info__tel{
     margin-bottom: 30px;  
+}
+.contact-info__tel a:hover,
+.contact-info__mail a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
 }
 
 .contact-info__tel a,
@@ -246,8 +245,6 @@ letter-spacing: -0.75px;
 }
 
 .contact-info__mail a{
-    opacity: 0.5;
-    border-bottom: 3px solid black;
     letter-spacing: -1.7px;
     line-height: 59px;
 }
@@ -276,7 +273,6 @@ footer{
 }
 
 .footer__nav-menu a:hover{
-    text-decoration: underline;
     opacity: 0.5;
 }
 
