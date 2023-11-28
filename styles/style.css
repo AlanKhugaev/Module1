@@ -30,16 +30,14 @@ body{
 }
 
 .nav-menu__link a,
-.contact-info__tel a,
-.contact-info__mail a{
+.contacts__tel,
+.contacts__mail{
     color: #121212;
     text-decoration: none;
 }
 
-.nav-menu__link a:hover,
-.contact-info__tel a:hover,
-.contact-info__mail a:hover{
-    text-decoration: underline;
+.nav-menu__link a:hover{
+    text-decoration: 2px underline;
     opacity: 0.5;
 }
 
@@ -72,8 +70,8 @@ h2{
 }
 
 h1,
-.contact-info__tel a,
-.contact-info__mail a{
+.contacts__tel p,
+.contacts__mail p{
     font-size: 60px;
     line-height: 60px;
 }
@@ -81,7 +79,7 @@ h1,
 h1,
 h2,
 .about__description,
-.contact-info__tel{
+.contacts__tel p{
     margin-bottom: 30px;
 }
 
@@ -214,32 +212,44 @@ h1{
 
 .apartment-project__text{
     position: absolute;
-    left: 125px;
     bottom: 60px;
+    left: auto;
     width: 443px;
 }
 
-.contact-info{
-    position: relative;
+.contacts{
     margin-bottom: 163px;
 }
 
-.contact-info__title::before{
+.contacts__title{
+    position: relative;
+}
+
+.contacts__title::before{
     position: absolute;
     content: "";
     display: block;
     width: 24px;
     height: 24px;
     top: -37px;
+    left: -4px;
     background-image: url(../resources/phone_ico.png);
 }
 
-.contact-info__tel a{
+.contacts__tel p{
     letter-spacing: -1px;
 }
 
-.contact-info__mail a{
+.contacts__mail p{
+    display: inline-block;
+    padding-bottom: 10px;
     letter-spacing: -1.7px;
+    border-bottom: 2px solid black;
+}
+
+.contacts__tel p:hover,
+.contacts__mail p:hover{
+    opacity: 0.5;
 }
 
 footer{
