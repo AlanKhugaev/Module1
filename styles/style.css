@@ -201,19 +201,22 @@ h1{
 }
 
 .apartment-project{
-    position: relative;
-    height: 717px;
-    margin-bottom: 186px;
     background-image: url(../resources/bedroom.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
+.apartment-project__wrapper{
+    position: relative;
+    height: 717px;
+    margin-bottom: 186px;
+}
+
 .apartment-project__text{
     position: absolute;
     bottom: 60px;
-    left: auto;
+    left: 0;
     width: 443px;
 }
 
