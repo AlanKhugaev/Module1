@@ -235,13 +235,16 @@ h1{
     background-image: url(../resources/phone_ico.png);
 }
 
+.contacts{
+    margin-bottom: 160px;
+}
+
 .contacts__tel{
     display: block;
     letter-spacing: -1px;
 }
 
 .contacts__mail{
-    padding-bottom: 10px;
     letter-spacing: -1.7px;
     border-bottom: 2px solid black;
 }
