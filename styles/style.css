@@ -210,7 +210,6 @@ h1{
 .apartment-project__wrapper{
     position: relative;
     height: 717px;
-    margin-bottom: 186px;
 }
 
 .apartment-project__text{
@@ -237,6 +236,7 @@ h1{
 
 .contacts{
     margin-bottom: 160px;
+    padding-top: 36px;
 }
 
 .contacts__tel{
