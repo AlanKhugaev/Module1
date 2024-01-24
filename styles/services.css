@@ -1,0 +1,29 @@
+.services{
+    background-color: #121212;
+    padding: 150px 0 ;
+    margin-bottom: 0;
+}
+
+.services__title{
+    margin-bottom: 34px;
+    letter-spacing: -0.04px;
+}
+
+.services__item{
+    margin-bottom: 60px;
+}
+
+.services__item:nth-last-child(1){
+    margin-bottom: 0; 
+}
+
+.services__text{
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.75px;
+}
+
+.services__img{
+    width: 100%;
+    margin-bottom: 15px;
+}

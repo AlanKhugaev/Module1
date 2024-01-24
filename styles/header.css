@@ -1,0 +1,27 @@
+.header{
+    margin: 33px 15px 70px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu__link{
+    display: inline-block;
+    margin-left: 57px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.54px;
+}
+
+.nav-menu__link a{
+    color: #121212;
+    text-decoration: none;
+}
+
+.nav-menu__link a:hover{
+    text-decoration: 1px underline;
+    opacity: 0.5;
+}

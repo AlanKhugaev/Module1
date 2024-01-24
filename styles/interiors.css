@@ -1,0 +1,127 @@
+.interiors__text,
+.about__btn{
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.interiors__item{
+    position: relative;
+    height: 500px;
+    background-image: url(../resources/interiors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.interiors__text{
+    position: absolute;
+    width: 430px;
+    left: 40px;
+    bottom: 40px;
+    letter-spacing: -0.6px;
+}
+
+.about__description{
+    max-width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -1.3px;
+    margin-bottom: 30px;
+}
+
+.about__btn{
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #AD1818;
+    font-family: Manrope;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.apartment-project{
+    background-image: url(../resources/bedroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.apartment-project__wrapper{
+    position: relative;
+    height: 717px;
+}
+
+.apartment-project__text{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 443px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.75px;
+}
+
+@media (max-width: 1024px) {
+    
+    .interiors__item{
+        height: 400px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .interiors__text{
+        bottom: 30px;
+    }
+    .about__description{
+        width: 100%;
+        font-size: 35px;
+        line-height: 48px;
+        letter-spacing: -1.05px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    
+    .interiors__text{
+        max-width: 440px;
+        left: 20px;
+        bottom: 20px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .interiors__item{
+        height: 304px;
+        background-size: cover;
+        background-position: 50%;
+    }
+    .interiors__text{
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.48px;
+        max-width: 312px;
+        left: 15px;
+        bottom: 15px;
+        }
+     
+    .about__description{
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.66px;
+    }
+
+    .about__btn{
+        padding: 15.2px 30.4px;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 3.8px;
+        letter-spacing: -0.48px;
+        }
+}
