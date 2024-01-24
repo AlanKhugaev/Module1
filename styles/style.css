@@ -1,3 +1,10 @@
+@import "/styles/header.css";
+@import "/styles/interiors.css";
+@import "/styles/projects.css";
+@import "/styles/services.css";
+@import "/styles/contacts.css";
+@import "/styles/footer.css";
+
 html{
     scroll-behavior: smooth;
 }
@@ -12,33 +19,6 @@ body{
     max-width: 1180px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.header{
-    margin: 33px 15px 70px;
-}
-
-.header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-menu__link{
-    display: inline-block;
-    margin-left: 57px;
-}
-
-.nav-menu__link a,
-.contacts__tel,
-.contacts__mail{
-    color: #121212;
-    text-decoration: none;
-}
-
-.nav-menu__link a:hover{
-    text-decoration: 1px underline;
-    opacity: 0.5;
 }
 
 section{
@@ -56,224 +36,70 @@ section{
     color: #FFF;
 }
 
-.nav-menu__link,
-h2{
-    font-size: 18px;
-    line-height: 25px;
-}
-
-.interiors__text,
-.about__btn,
-.footer__info{
-    font-size: 20px;
-    line-height: 27px;
-}
-
-h1,
-.contacts__tel,
-.contacts__mail{
-    font-size: 60px;
-    line-height: 60px;
-}
-
-h1,
-h2,
-.about__description,
-.contacts__tel{
-    margin-bottom: 30px;
-}
-
-h2,
-.footer__info,
-.nav-menu__link{
-    letter-spacing: -0.54px;
-}
-
 h1{
     width: 956px;
+    font-size: 60px;
+    line-height: 60px;
     letter-spacing: -1.8px;
 }
 
-.interiors__item{
-    position: relative;
-    height: 500px;
-    background-image: url(../resources/interiors.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+h2{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.54px;
 }
 
-.interiors__text{
-    position: absolute;
-    width: 430px;
-    left: 40px;
-    bottom: 40px;
-    letter-spacing: -0.6px;
+h1,
+h2{
+    margin-bottom: 30px;
 }
 
-.about__description{
-    width: 1048px;
-    font-size: 45px;
-    line-height: 61px;
-    letter-spacing: -1.3px;
+@media (max-width: 1024px) {
+    
+    .container{
+        max-width: 100%;
+    }
+    section{
+        margin-bottom: 120px;
+    }
+
+    h1{
+        width: 100%;
+        font-size: 50px;
+        letter-spacing: -1.5px;
+    }
+    
 }
 
-.about__btn{
-    padding: 20px 40px;
-    border-radius: 5px;
-    background-color: #AD1818;
-    font-family: Manrope;
-    font-weight: 400;
-    letter-spacing: -0.6px;
-    border: none;
-    cursor: pointer;
-    color: #FFF;
+@media (max-width: 768px) {
+    section{
+        margin-bottom: 100px;
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+     
+    
 }
 
-.projects__project{
-    margin-bottom: 90px;
-}
+@media (max-width: 480px) {
 
-.project__img,
-.services__img{
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.project__details{
-    margin-bottom: 15px;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: -0.9px;
-}
-
-.project__info{
-    color: #AD1818;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: -0.6px;
-    text-decoration: none;
-}
-
-.projects__btn {
-    display: flex;
-    padding: 56px 0;
-    border: 1px solid #AD1818;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #AD1818;
-    justify-content: center;
-    font-size: 30px;
-    line-height: 38px;
-    letter-spacing: -0.9px;
-    transition: all 0.5s;
-    text-decoration: none;
-}
-
-.projects__btn:hover {
-    background: #AD1818;
-}
-
-.services{
-    background-color: #121212;
-    padding: 150px 0 ;
-    margin-bottom: 0;
-}
-
-.services__title{
-    margin-bottom: 34px;
-    letter-spacing: -0.04px;
-}
-
-.services__item{
-    margin-bottom: 60px;
-}
-
-.services__item:nth-last-child(1){
-    margin-bottom: 0; 
-}
-
-.services__text,
-.apartment-project__text{
-    font-size: 30px;
-    line-height: 39px;
-    letter-spacing: -0.75px;
-}
-
-.apartment-project{
-    background-image: url(../resources/bedroom.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-.apartment-project__wrapper{
-    position: relative;
-    height: 717px;
-}
-
-.apartment-project__text{
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-    width: 443px;
-}
-
-.contacts__title{
-    position: relative;
-}
-
-.contacts__title::before{
-    position: absolute;
-    content: "";
-    display: block;
-    width: 24px;
-    height: 24px;
-    top: -37px;
-    left: -4px;
-    background-image: url(../resources/phone_ico.png);
-}
-
-.contacts{
-    margin-bottom: 160px;
-    padding-top: 36px;
-}
-
-.contacts__tel{
-    display: block;
-    letter-spacing: -1px;
-}
-
-.contacts__mail{
-    letter-spacing: -1.7px;
-    border-bottom: 2px solid black;
-}
-
-.contacts__tel:hover,
-.contacts__mail:hover{
-    opacity: 0.5;
-}
-
-footer{
-    padding-top: 60px;
-    padding-bottom: 30px;
-    background-color: #121212; 
-}
-
-.footer__nav-menu{
-    margin-bottom: 87px;
-    text-align: center;
-}
-
-.footer__nav-menu .nav-menu__link{
-    margin: 0 26px;
-}
-
-.footer__nav-menu a:hover{
-    text-decoration: none;
-}
-
-.footer__info{
-    text-align: center;
-    opacity: 0.5;
+    section{
+        margin-bottom: 80px;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 31.621px;
+        letter-spacing: -0.9px;
+        margin-bottom: 25px;
+    }
+    h2{
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.42px;
+        margin-bottom: 20px;
+    }   
+    
 }
