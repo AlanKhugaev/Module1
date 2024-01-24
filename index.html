@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <title>Метрика</title>
+    <link rel="shortcut icon" href="resources/favicon.png" type="image/png">
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             <a class="logo__link" href="#">
                 <img class="logo__img" src="resources/logo.png" alt="Логотип МЕТРИКА"></a>   
@@ -23,7 +24,7 @@
                 </ul>
             </nav>
         </div>         
-    </header>
+    </header> -->
     <main>
         <section class="interiors">
             <div class="container">
@@ -51,31 +52,55 @@
                 <h2 class="projects__title">ПРОЕКТЫ</h2>
                 <ul>
                     <li class="projects__project">
-                        <img class="project__img" 
-                            src="resources/livingroom1.jpg" 
-                            alt="Дизайн гостиной">
+                        <picture>
+                            <source 
+                                media="(max-width: 480px)" 
+                                srcset="resources/livingroom1_phone.jpg">
+                            <source 
+                                media="(max-width: 1024px)" 
+                                srcset="resources/livingroom1_tablet.jpg">
+                            <img class="project__img"
+                                src="resources/livingroom1.jpg"
+                                alt="Дизайн гостиной">
+                        </picture>
                         <h3 class="project__details">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                         <a class="project__info" href="#">Подробнее →</a>
                     </li>
                     <li class="projects__project">
-                        <img class="project__img" 
-                            src="resources/livingroom2.jpg" 
-                            alt="Дизайн гостиной">
-                        <h3 class="project__details">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-                        <a class="project__info" href="#">Подробнее →</a>
+                        <picture>
+                            <source 
+                                media="(max-width: 480px)" 
+                                srcset="resources/livingroom2_phone.jpg">
+                            <source 
+                                media="(max-width: 1024px)" 
+                                srcset="resources/livingroom2_tablet.jpg">
+                            <img class="project__img"
+                                src="resources/livingroom2.jpg"
+                                alt="Дизайн гостиной">
+                            <h3 class="project__details">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                            <a class="project__info" href="#">Подробнее →</a>
+                        </picture>
                     </li>
                     <li class="projects__project">
-                        <img class="project__img" 
-                            src="resources/livingroom3.jpg" 
-                            alt="Дизайн гостиной">
-                        <h3 class="project__details">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-                        <a class="project__info" href="#">Подробнее →</a>
+                        <picture>
+                            <source 
+                                media="(max-width: 480px)" 
+                                srcset="resources/livingroom3_phone.jpg">
+                            <source 
+                                media="(max-width: 1024px)" 
+                                srcset="resources/livingroom3_tablet.jpg">
+                            <img class="project__img"
+                                src="resources/livingroom3.jpg"
+                                alt="Дизайн гостиной">
+                            <h3 class="project__details">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                            <a class="project__info" href="#">Подробнее →</a>
+                        </picture>
                     </li>
                     <a class="projects__btn" href="#">Смотреть все проекты</a>
                 </ul>
             </div>        
         </section>
-        <section class="services">
+        <!-- <section class="services">
             <div id="services" class="container">
                 <h2 class="services__title">УСЛУГИ</h2>
                 <ul>
@@ -97,23 +122,23 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <section class="apartment-project">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="apartment-project__wrapper">
                     <p class="apartment-project__text">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section id="contacts" class="contacts">
-            <div class="container">
+            <!-- <div class="container">
                 <h2 class="contacts__title">КОНТАКТЫ</h2>
                 <a class="contacts__tel" href="tel:+79358954535">+7 935  895-45-35</a>
                 <a class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</a>
-            </div>
+            </div> -->
         </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">    
             <nav class="footer__nav-menu">
                 <ul>
@@ -125,6 +150,6 @@
             </nav>
             <div class="footer__info"><p>студия дизайна интерьера Метрика — 2023</p></div>
         </div> 
-    </footer>
+    </footer> -->
 </body>
 </html>
