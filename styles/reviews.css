@@ -3,8 +3,11 @@
 }
 
 .reviews__review{
-    max-width: 861px;
     margin-bottom: 80px;
+}
+
+.reviews__review_last{
+    max-width: 861px;
 }
 
 .review__author{
