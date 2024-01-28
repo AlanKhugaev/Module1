@@ -1,7 +1,6 @@
 .services{
     background-color: #121212;
     padding: 150px 0 ;
-    margin-bottom: 0;
 }
 
 .services__title{
@@ -60,6 +59,15 @@
     letter-spacing: -0.9px;
     border: 0;
     cursor: pointer;
+    transition: all 0.2s;
+}
+
+.services__btn:hover {
+    background: #8f1414;
+}
+.services__btn:active{
+    background-color: #AD1818;
+    font-size: 29px;
 }
 
 @media (max-width: 1024px) {
@@ -88,12 +96,9 @@
 }
 
 @media (max-width: 768px) {
-    .services__img{
-        height: 260px;
+    .services{
+        padding: 80px 0;
     }
-}
-
-@media (max-width: 480px) {
     .services__title{
         margin-bottom: 20px;
         letter-spacing: -0.42px;
@@ -129,5 +134,7 @@
         line-height: 30px;
         letter-spacing: -0.66px;
     }
-    
+    .services__btn:active{
+        font-size: 21px;
+    }
 }
