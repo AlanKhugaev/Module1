@@ -1,9 +1,11 @@
-@import "../styles/header.css";
-@import "../styles/interiors.css";
-@import "../styles/projects.css";
-@import "../styles/services.css";
-@import "../styles/contacts.css";
-@import "../styles/footer.css";
+@import "/styles/header.css";
+@import "/styles/interiors.css";
+@import "/styles/projects.css";
+@import "/styles/services.css";
+@import "/styles/reviews.css";
+@import "/styles/contacts.css";
+@import "/styles/footer.css";
+
 
 html{
     scroll-behavior: smooth;
@@ -23,6 +25,15 @@ body{
 
 section{
     margin-bottom: 150px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.col{
+    width: calc(50% - 25px);
 }
 
 .interiors__text, 
@@ -55,39 +66,31 @@ h2{
 }
 
 @media (max-width: 1024px) {
-    
     .container{
         max-width: 100%;
     }
     section{
         margin-bottom: 120px;
     }
-
+    .col{
+        width: calc(50% - 5px);
+    }
     h1{
         width: 100%;
         font-size: 50px;
         letter-spacing: -1.5px;
     }
-    
 }
 
 @media (max-width: 768px) {
     section{
-        margin-bottom: 100px;
-    }
-
-    h1{
-        font-size: 40px;
-        line-height: 50px;
-    }
-     
-    
-}
-
-@media (max-width: 480px) {
-
-    section{
         margin-bottom: 80px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
     }
     h1{
         font-size: 30px;
@@ -95,11 +98,10 @@ h2{
         letter-spacing: -0.9px;
         margin-bottom: 25px;
     }
-    h2{
+     h2{
         font-size: 14px;
         line-height: 19px;
         letter-spacing: -0.42px;
         margin-bottom: 20px;
-    }   
-    
+    } 
 }
