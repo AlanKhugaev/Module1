@@ -39,7 +39,6 @@
 
 .projects__btn:hover {
     background: #AD1818;
-
 }
 
 @media (max-width: 1024px) {
@@ -67,12 +66,6 @@
 }
 
 @media (max-width: 768px) {
-    .projects__project{
-        margin-bottom: 65px;
-    }
-}
-
-@media (max-width: 480px) {
     .projects__project{
         margin-bottom: 49px;
     }
