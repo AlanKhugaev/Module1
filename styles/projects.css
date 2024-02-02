@@ -41,7 +41,7 @@
     background: #AD1818;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 961px) {
     .projects__project{
         margin-bottom: 80px;
     }
