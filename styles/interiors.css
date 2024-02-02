@@ -15,7 +15,7 @@
 
 .interiors__text{
     position: absolute;
-    width: 430px;
+    max-width: 430px;
     left: 40px;
     bottom: 40px;
     letter-spacing: -0.6px;
@@ -63,7 +63,7 @@
     letter-spacing: -0.75px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 961px) {
     .interiors__item{
         height: 400px;
         background-size: cover;
