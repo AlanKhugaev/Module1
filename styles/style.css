@@ -48,7 +48,7 @@ section{
 }
 
 h1{
-    width: 956px;
+    max-width: 956px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
@@ -65,7 +65,7 @@ h2{
     margin-bottom: 30px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 961px) {
     .container{
         max-width: 100%;
     }
@@ -76,7 +76,7 @@ h2{
         width: calc(50% - 5px);
     }
     h1{
-        width: 100%;
+        max-width: 802px;
         font-size: 50px;
         letter-spacing: -1.5px;
     }
