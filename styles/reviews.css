@@ -23,7 +23,7 @@
     letter-spacing: -0.66px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 961px){
     .review__author{
         font-size: 35px;
         line-height: 48px;
