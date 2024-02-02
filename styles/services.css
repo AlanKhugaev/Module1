@@ -70,7 +70,7 @@
     font-size: 29px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 961px) {
     .services__list{
         row-gap: 80px;
         margin-bottom: 80px;
