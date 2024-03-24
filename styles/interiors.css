@@ -41,28 +41,6 @@
     color: #FFF;
 }
 
-.apartment-project{
-    background-image: url(../resources/bedroom.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-.apartment-project__wrapper{
-    position: relative;
-    height: 717px;
-}
-
-.apartment-project__text{
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-    width: 443px;
-    font-size: 30px;
-    line-height: 39px;
-    letter-spacing: -0.75px;
-}
-
 @media (max-width: 961px) {
     .interiors__item{
         height: 400px;
