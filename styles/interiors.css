@@ -1,10 +1,10 @@
 .interiors__text,
-.about__btn{
+.about__btn {
     font-size: 20px;
     line-height: 27px;
 }
 
-.interiors__item{
+.interiors__item {
     position: relative;
     height: 500px;
     background-image: url(../resources/interiors.jpg);
@@ -13,7 +13,7 @@
     background-position: 50% 50%;
 }
 
-.interiors__text{
+.interiors__text {
     position: absolute;
     max-width: 430px;
     left: 40px;
@@ -21,7 +21,7 @@
     letter-spacing: -0.6px;
 }
 
-.about__description{
+.about__description {
     max-width: 1048px;
     font-size: 45px;
     line-height: 61px;
@@ -29,7 +29,7 @@
     margin-bottom: 30px;
 }
 
-.about__btn{
+.about__btn {
     padding: 20px 40px;
     border-radius: 5px;
     background-color: #AD1818;
@@ -42,15 +42,17 @@
 }
 
 @media (max-width: 961px) {
-    .interiors__item{
+    .interiors__item {
         height: 400px;
         background-size: cover;
         background-position: 50% 50%;
     }
-    .interiors__text{
+
+    .interiors__text {
         bottom: 30px;
     }
-    .about__description{
+
+    .about__description {
         width: 100%;
         font-size: 35px;
         line-height: 48px;
@@ -59,12 +61,13 @@
 }
 
 @media (max-width: 768px) {
-    .interiors__item{
+    .interiors__item {
         height: 304px;
         background-size: cover;
         background-position: 50%;
     }
-    .interiors__text{
+
+    .interiors__text {
         max-width: 312px;
         left: 15px;
         bottom: 15px;
@@ -72,13 +75,15 @@
         line-height: 22px;
         letter-spacing: -0.48px;
     }
-    .about__description{
+
+    .about__description {
         width: 100%;
         font-size: 22px;
         line-height: 30px;
         letter-spacing: -0.66px;
     }
-    .about__btn{
+
+    .about__btn {
         padding: 15.2px 30.4px;
         font-size: 16px;
         line-height: 22px;
