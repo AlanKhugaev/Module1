@@ -1,20 +1,20 @@
-.projects__project{
+.projects__project {
     margin-bottom: 90px;
 }
 
-.project__img{
+.project__img {
     width: 100%;
     margin-bottom: 15px;
 }
 
-.project__details{
+.project__details {
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -0.9px;
 }
 
-.project__info{
+.project__info {
     color: #AD1818;
     font-size: 20px;
     line-height: 30px;
@@ -42,48 +42,56 @@
 }
 
 @media (max-width: 961px) {
-    .projects__project{
+    .projects__project {
         margin-bottom: 80px;
     }
-    .project__img{
+
+    .project__img {
         height: 450px;
         object-fit: cover;
     }
-    .project__details{
+
+    .project__details {
         margin-bottom: 10px;
         font-size: 25px;
         line-height: 34px;
         letter-spacing: -0.75px;
     }
-    .project__info{
+
+    .project__info {
         font-size: 25px;
         line-height: 34px;
         letter-spacing: -0.75px;
     }
+
     .projects__btn {
         line-height: 41px;
     }
 }
 
 @media (max-width: 768px) {
-    .projects__project{
+    .projects__project {
         margin-bottom: 49px;
     }
-    .project__img{
+
+    .project__img {
         height: 250px;
         margin-bottom: 20px;
     }
-    .project__details{
+
+    .project__details {
         margin-bottom: 11px;
         font-size: 18px;
         line-height: 25px;
         letter-spacing: -0.54px;
     }
-    .project__info{
+
+    .project__info {
         font-size: 16px;
         line-height: 22px;
         letter-spacing: -0.48px;
     }
+    
     .projects__btn {
         padding: 37px 0 37.14px;
         border: 0.76px solid #AD1818;
