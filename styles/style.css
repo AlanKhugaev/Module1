@@ -8,32 +8,32 @@
 @import "../styles/gallery.css";
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     color: #121212;
 }
 
-.container{
+.container {
     max-width: 1180px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-section{
+section {
     margin-bottom: 150px;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between; 
 }
 
-.col{
+.col {
     width: calc(50% - 25px);
 }
 
@@ -43,39 +43,42 @@ section{
 .services__title,
 .services__text,
 .footer__nav-menu a,
-.footer__info{
+.footer__info {
     color: #FFF;
 }
 
-h1{
+h1 {
     max-width: 956px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
 }
 
-h2{
+h2 {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.54px;
 }
 
 h1,
-h2{
+h2 {
     margin-bottom: 30px;
 }
 
 @media (max-width: 961px) {
-    .container{
+    .container {
         max-width: 100%;
     }
-    section{
+
+    section {
         margin-bottom: 120px;
     }
-    .col{
+
+    .col {
         width: calc(50% - 5px);
     }
-    h1{
+
+    h1 {
         max-width: 802px;
         font-size: 50px;
         letter-spacing: -1.5px;
@@ -83,22 +86,26 @@ h2{
 }
 
 @media (max-width: 768px) {
-    section{
+    section {
         margin-bottom: 80px;
     }
-    .row{
+
+    .row {
         flex-direction: column;
     }
-    .col{
+
+    .col {
         width: 100%;
     }
-    h1{
+
+    h1 {
         font-size: 30px;
         line-height: 31.621px;
         letter-spacing: -0.9px;
         margin-bottom: 25px;
     }
-     h2{
+    
+     h2 {
         font-size: 14px;
         line-height: 19px;
         letter-spacing: -0.42px;
