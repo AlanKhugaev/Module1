@@ -1,14 +1,14 @@
-.services{
+.services {
     background-color: #121212;
     padding: 150px 0 ;
 }
 
-.services__title{
+.services__title {
     margin-bottom: 34px;
     letter-spacing: -0.04px;
 }
 
-.services__list{
+.services__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -16,25 +16,25 @@
     margin-bottom: 106px;
 }
 
-.services__item{
+.services__item {
     position: relative;
     width: calc(50% - 5.5px);
 }
 
-.services__text{
+.services__text {
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.9px;
 }
 
-.services__img{
+.services__img {
     width: 100%;
     margin-bottom: 15px;
     height: 389px;
     object-fit: cover;
 }
 
-.services__price{
+.services__price {
     position: absolute;
     left: 30px;
     top: 31px;
@@ -47,7 +47,7 @@
     border-radius: 5px;
 }
 
-.services__btn{
+.services__btn {
     width: 100%;
     padding: 56px 0;
     color: #FFF;
@@ -65,28 +65,33 @@
 .services__btn:hover {
     background: #8f1414;
 }
-.services__btn:active{
+
+.services__btn:active {
     background-color: #AD1818;
     font-size: 29px;
 }
 
 @media (max-width: 961px) {
-    .services__list{
+    .services__list {
         row-gap: 80px;
         margin-bottom: 80px;
     }
-    .services__item{
+
+    .services__item {
         width: calc(50% - 5px);
     }
-    .services__text{
+
+    .services__text {
         font-size: 25px;
         line-height: 34px;
         letter-spacing: -0.75px;
     }
-    .services__img{
+
+    .services__img {
         height: 315px;
     }
-    .services__price{
+
+    .services__price {
         left: 32px;
         padding: 7px 26px 6px 27px;
         font-size: 20px;
@@ -96,29 +101,35 @@
 }
 
 @media (max-width: 768px) {
-    .services{
+    .services {
         padding: 80px 0;
     }
-    .services__title{
+
+    .services__title {
         margin-bottom: 20px;
         letter-spacing: -0.42px;
     }
-    .services__list{
+
+    .services__list {
         margin-bottom: 60px;
     }
-    .services__item{
+
+    .services__item {
         width: 100%;
     }
-    .services__text{
+
+    .services__text {
         font-size: 18px;
         line-height: 25px;
         letter-spacing: -0.54px;
     }
-    .services__img{
+
+    .services__img {
         margin-bottom: 10px;
         height: 240px;
     }
-    .services__price{
+
+    .services__price {
         left: 24px;
         top: 24px;
         padding: 5px 23px 6px 24px;
@@ -127,14 +138,16 @@
         letter-spacing: -0.42px;
         border-radius: 3.8px;
     }
-    .services__btn{
+
+    .services__btn {
         padding: 36px 0;
         border-radius: 3.8px;
         font-size: 22px;
         line-height: 30px;
         letter-spacing: -0.66px;
     }
-    .services__btn:active{
+
+    .services__btn:active {
         font-size: 21px;
     }
 }
