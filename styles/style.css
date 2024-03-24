@@ -5,6 +5,7 @@
 @import "../styles/reviews.css";
 @import "../styles/contacts.css";
 @import "../styles/footer.css";
+@import "../styles/gallery.css";
 
 
 html{
@@ -41,7 +42,6 @@ section{
 .projects__btn:hover,
 .services__title,
 .services__text,
-.apartment-project__text,
 .footer__nav-menu a,
 .footer__info{
     color: #FFF;
