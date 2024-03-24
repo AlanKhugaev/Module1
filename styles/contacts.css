@@ -1,80 +1,77 @@
-.contacts__title{
+.contacts__title {
     margin-bottom: 74px;
 }
 
-.contacts__tel{
+.contacts__tel,
+.contacts__mail {
     position: relative;
-    display: block;
-    margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -1px;
     color: #121212;
     text-decoration: none;
 }
 
-.contacts__tel::before{
-    position: absolute;
+.contacts__tel {
+    letter-spacing: -1px;
+}
+
+.contacts__mail {
+    letter-spacing: -1.7px;
+    border-bottom: 2px solid black;
+    }
+
+.contacts__tel::before,
+.contacts__mail::before {
+   position: absolute;
     content: "";
     display: block;
     width: 24px;
     height: 24px;
     top: -37px;
     left: -4px;
+}
+
+.contacts__tel::before {
     background-image: url(../resources/phone_ico.png);
 }
 
-.contacts__mail{
-    position: relative;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -1.7px;
-    border-bottom: 2px solid black;
-    color: #121212;
-    text-decoration: none;
-}
-.contacts__mail::before{
-    position: absolute;
-    content: "";
-    display: block;
-    width: 24px;
-    height: 24px;
-    top: -37px;
-    left: -4px;
+.contacts__mail::before {
     background-image: url(../resources/mail_ico.png);
 }
 
 .contacts__tel:hover,
-.contacts__mail:hover{
+.contacts__mail:hover {
     opacity: 0.5;
 }
 
-
-@media (max-width: 961px) {
-    .contacts__tel{
-        font-size: 45px;
-
-    }
-    .contacts__mail{
-        font-size: 45px;
-
+@media (max-width: 1024px) {
+    .contacts__tel,
+    .contacts__mail {
+        font-size: 50px;
     }
 }
 
-@media (max-width: 768px) {
-    .contacts__tel{
-        font-size: 35px;
-        line-height: 45.62px;
-        margin-bottom: 58px;
-
+@media (max-width: 961px) {
+    .contacts__tel,
+    .contacts__mail {
+        font-size: 45px;
     }
-    .contacts__mail{
+    
+}
+
+@media (max-width: 768px) {
+    .contacts__tel {
+        margin-bottom: 58px;
+    }
+
+    .contacts__tel,
+    .contacts__mail {
         font-size: 35px;
         line-height: 45.62px;
     }
 
     .contacts__tel::before,
-    .contacts__mail::before{
+    .contacts__mail::before {
         width: 18px;
         height: 18px;
         background-repeat: no-repeat;
