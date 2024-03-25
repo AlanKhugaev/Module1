@@ -77,4 +77,8 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .contacts__row {
+        gap: 58px;
+    }
 }
