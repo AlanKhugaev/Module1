@@ -16,7 +16,6 @@
     line-height: 30px;
     color: white;
     letter-spacing: -0.66px;
-    z-index: 100;
 }
 
 .gallery__slides {
@@ -54,10 +53,6 @@
     max-width: 443px;
 }
 
-.box {
-    position: relative;
-}
-
 .gallery__controls-wraper {
     position: absolute;
     bottom: 162px;
@@ -66,17 +61,33 @@
 
 .gallery__controls {
     display: flex;
+    gap: 14px;
 }
 
 .gallery__control-prev, 
 .gallery__control-next {
-    padding: 0 7px;
-    font-size: 40px;
-    line-height: 40px;
+    display: flex;
+    width: 40px;
+    height: 40px;
     background: none;
+    background-repeat: no-repeat;
+    background-position: left;
     border: none;
-    color: white;
     cursor: pointer;
+}
+
+.gallery__control-prev:hover, 
+.gallery__control-next:hover {
+    opacity: 0.5;
+}
+
+.gallery__control-prev {
+    background-image: url(../resources/arrow.png);
+}
+
+.gallery__control-next {
+    background-image: url(../resources/arrow.png);
+    transform: rotate(180deg);
 }
 
 @media (max-width: 961px) {
@@ -113,8 +124,14 @@
     .gallery__controls-wraper {
         bottom: 50%;
     }
-    
+
     .gallery__controls {
         justify-content: space-between;
+    }
+
+    .gallery__control-prev, 
+    .gallery__control-next {
+        width: 30px;
+        height: 30px;
     }
 }
