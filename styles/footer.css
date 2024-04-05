@@ -48,6 +48,7 @@ footer {
     }
 
     .nav-menu__link a {
+        padding: 0 15px;
         font-size: 12px;
         line-height: 16px;
     }
