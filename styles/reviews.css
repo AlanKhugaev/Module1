@@ -19,6 +19,7 @@
 }
 
 .review__text {
+    margin-bottom: 30px;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: -0.66px;
